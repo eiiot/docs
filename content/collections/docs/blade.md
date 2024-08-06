@@ -177,7 +177,7 @@ For tags that provide pagination, you can `fetch` the tag's output in a variable
     <li>{{ $page->title }}</li>
 @endforeach
 
-{{ $tag['paginate']['auto_links'] }}
+{!! $tag['paginate']['auto_links'] !!}
 ```
 
 ### Directive {#tag-directive}
